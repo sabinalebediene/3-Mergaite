@@ -8,16 +8,16 @@ body{
         display: inline-block; 
         width: 1200px%;
         }
-        #navigation{
+        #Navigacija{
             width: 100%; 
             height: 400px; 
             }
 
-        #logo{
+        header{
             float: left;
             }
-            
-        #Menu{
+
+        nav{
             float: right;
 
             }
