@@ -27,7 +27,7 @@ body{
                 }
                 a:last-of-type{
 /* ima paskutine a reiksme, jeigu konkreciai nurodome skaiciu, tata a:nth... */
-                    color: red;
+                    color: black;
                 }
     main{
 
