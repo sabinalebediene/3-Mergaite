@@ -34,11 +34,9 @@ body{
             border-radius: 25px;
             border: 3px solid #A9A9A9;
             padding: 2px;
-            padding right: 15px;
-            padding left: 15px;
-
-
-            
+            padding-right: 15px;
+            padding-left: 15px;
+       
         }
     main {
         display: inline-block;
