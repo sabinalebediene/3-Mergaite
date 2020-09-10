@@ -4,8 +4,8 @@ body{
 
     header{
         display: inline-block;
-        width: 1000px;
-        margin-left: calc( (100% - 1000px) / 2 );
+        width: 1200px;
+        margin-left: calc( (100% - 1200px) / 2 );
     }
     
         header > img{
@@ -16,7 +16,7 @@ body{
         nav{
             display: inline-block;
             float: right;
-            margin-top: 20px;
+               
 
         }
         a {
@@ -24,44 +24,53 @@ body{
             text-decoration: none;
             color: #BEBEBE;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 15px;
 
 
         }
         a:last-of-type {
             display: inline-block;
+            width: 70px;
+            border-radius: 25px;
+            border: 2px solid #A9A9A9;
+            background-position: center;
+            padding: 10px;
+
             
         }
     main {
         display: inline-block;
         width: 1000px;
         margin-left: calc( (100% - 1000px) / 2 );
+    
 }   
     div {
         display: inline-block;
-        width: 40%;
+        width: 50%;
         float: left;
         margin-top: 100px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
         
     }
         h1 {
             display: inline-block;
             width:100%;
             color: #A0A0A0;
-            text-align: center;
             font-size: 100px;
             margin: 0;
+            font-family: monospace;
+            
             
         }
         p {
             display: inline-block;
             width:100%;
-            text-align: center;
             color: #A0A0A0;
             font-size: 40px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
             margin: 0;
         }
-        
+
     main > img {
         display: inline-block;
         width: 50%;
