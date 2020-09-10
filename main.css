@@ -2,3 +2,50 @@ body{
     background-color:#F8F8F8;
 }
 
+    header{
+        display: inline-block;
+        width: 1000px;
+        /* background-color: yellow; */
+        margin-left: calc( (100% - 1000px) / 2 );
+    }
+    
+        header > img{
+            display: inline-block;
+            float: left;
+        }
+
+        nav{
+            display: inline-block;
+            float: right;
+            margin-top: 20px;
+        }
+        a {
+
+        }
+        a:last-of-type {
+            
+        }
+    main {
+        display: inline-block;
+        width: 1000px;
+        /* background-color: violet; */
+        margin-left: calc( (100% - 1000px) / 2 );
+}   
+    div {
+        display: inline-block;
+        width: 40%;
+        /* background-color: aquamarine; */
+        float: left;
+        margin-top: 100px;
+    }
+        h1 {
+
+        }
+        p {
+
+        }
+    main > img {
+        display: inline-block;
+        width: 50%;
+        float: right;
+    }
