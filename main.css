@@ -32,9 +32,11 @@ body{
             display: inline-block;
             width: 70px;
             border-radius: 25px;
-            border: 2px solid #A9A9A9;
-            background-position: center;
-            padding: 10px;
+            border: 3px solid #A9A9A9;
+            padding: 2px;
+            padding right: 15px;
+            padding left: 15px;
+
 
             
         }
