@@ -14,25 +14,32 @@ body{
         }
 
         nav{
-            display: inline-block;
             float: right;
-               
+            margin-top: 20px;
+                 
 
         }
         a {
-            display: inline-block;
+            float: left;
+            padding-top: 0;
+            margin-left: 10px;
             text-decoration: none;
             color: #BEBEBE;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
-            padding: 15px;
-
+            padding: 5px;
+            padding-right: 20px;
+            padding-left: 20px;
+            border: 5px soli transparent;
 
         }
+
         a:last-of-type {
-            display: inline-block;
-            width: 70px;
-            border-radius: 25px;
             border: 3px solid #A9A9A9;
+            text-transform: uppercase;
+            /* funkcija, didziosios ar mazosios ir t.t. */
+            border-radius: 21px;
+            /* radus px ziurime trumpiausios krastines dydi ir daliname is 2 */
+            width: 70px;
             padding: 2px;
             padding-right: 15px;
             padding-left: 15px;
@@ -49,14 +56,14 @@ body{
         width: 50%;
         float: left;
         margin-top: 100px;
+        color: #A0A0A0;
         
         
     }
         h1 {
             display: inline-block;
             width:100%;
-            color: #A0A0A0;
-            font-size: 100px;
+            font-size: 120px;
             margin: 0;
             font-family: monospace;
             
@@ -65,7 +72,6 @@ body{
         p {
             display: inline-block;
             width:100%;
-            color: #A0A0A0;
             font-size: 40px;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             margin: 0;
