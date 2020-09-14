@@ -2,22 +2,21 @@ body{
     background-color:#F8F8F8;
 }
 
-    header{
+    header {
         display: inline-block;
-        width: 1200px;
-        margin-left: calc( (100% - 1200px) / 2 );
+            width: 1000px;
+            margin-left: calc( (100% - 1000px) / 2 );
     }
     
-        header > img{
+        header > img {
             display: inline-block;
             float: left;
         }
 
-        nav{
+        nav {
+            display:inline-block;
             float: right;
             margin-top: 20px;
-                 
-
         }
         a {
             float: left;
@@ -30,9 +29,7 @@ body{
             padding-right: 20px;
             padding-left: 20px;
             border: 5px soli transparent;
-
         }
-
         a:last-of-type {
             border: 3px solid #A9A9A9;
             text-transform: uppercase;
@@ -43,31 +40,25 @@ body{
             padding: 2px;
             padding-right: 15px;
             padding-left: 15px;
-       
         }
     main {
         display: inline-block;
         width: 1000px;
-        margin-left: calc( (100% - 1000px) / 2 );
-    
-}   
-    div {
-        display: inline-block;
-        width: 50%;
-        float: left;
-        margin-top: 100px;
-        color: #A0A0A0;
-        
-        
-    }
+        margin-left: calc( (100% - 1000px) / 2 )
+    }   
+        div {
+            display: inline-block;
+            width: 50%;
+            float: left;
+            margin-top: 100px;
+            color: #A0A0A0;
+        }
         h1 {
             display: inline-block;
             width:100%;
             font-size: 120px;
             margin: 0;
             font-family: monospace;
-            
-            
         }
         p {
             display: inline-block;
@@ -76,7 +67,6 @@ body{
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             margin: 0;
         }
-
     main > img {
         display: inline-block;
         width: 50%;
